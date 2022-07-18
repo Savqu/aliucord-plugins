@@ -32,7 +32,7 @@ class CloseDMs : Plugin() {
 			val view = (requireView() as NestedScrollView).getChildAt(0) as LinearLayout
 
 			val closeDm = TextView(view.context, null, 0, R.i.UiKit_Settings_Item_Icon).apply {
-				text = "Close DM"
+				text = "Zamknij prywatną rozmowę"
 				setCompoundDrawablesWithIntrinsicBounds(deleteIconId, 0, 0, 0)
 				setOnClickListener {
 					dismiss()
